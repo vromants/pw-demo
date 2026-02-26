@@ -11,7 +11,7 @@ class LoginPage {
     }
 
     async goTo() {
-        this.page.goto();
+        this.page.goto('/');
     }
 }
 
